@@ -1,0 +1,42 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.env
+.env.*
+
+# Private source and local backups
+teacher_pretrain/
+kd_training/
+hca_ppt/
+private/
+backups/
+*_backup*/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Checkpoints, datasets, and experiment artifacts
+t_models/
+s_models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+data/
+datasets/
+logs/
+*_logs/
+tensorboard/
+runs/
+outputs/
+results/
+image_visualization*/
+*.log
+events.out.tfevents.*
+complexity_*_report.txt
